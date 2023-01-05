@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+
+ }
+ #imgbox{
+    height: 100vh;
+    background-image: url(bg1.jpg) , linear-gradient(#eb01a5, #d13531);
+    /* border: 3px solid red; */
+    background-position: cover;
+    padding: 20px 150px 0 150px;
+    
+}
+#imgbox h2{
+      margin-top: 35px;
+    font-size: 35px;
+     text-align: center;
+     color: white;
+     font-weight: 400;
+     /* background: red; */
+ }
+ #imgbox #head p{
+    text-align: center;
+    color: white;
+    padding: 6px 0 25px 0;
+    font-size: 18px;
+
+
+ }
+ #mainbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ #firstbox{
+    flex-direction: row;
+ }
+
+ #secondbox{
+    height: 350px;
+    width: 400px;
+    padding: 20px;
+    background: white;
+
+ }
+ input{
+    width: 100%;
+    /* font-size: 0px; */
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    margin-bottom: 23px;
+ }
+ h3{
+    margin: 10px 0  ;
+    margin-bottom: 25px;
+ }
+ button{
+    color: white;
+    background: cyan;
+    border: none;
+    outline: none;
+    width: 30%;
+    height: 40px;
+    margin-top: 8px;
+
+ }
+
+ .time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+ }
+
+ #firstbox  p{
+    color: white;
+
+
+ }
+ #firstbox{
+    background: rgba(0, 0, 0, 0.071);
+    height: 400px;
+    width: 500px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+ }
+ .time .sp span{
+    background: white;
+    top: 0;
+    border-radius: 100%;
+    font-size: 30px ;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+
+    
+ }
+ h1{
+    color: cyan;
+    font-size: 20px;
+    margin-top: 12px;
+    font-weight: 600;
+ }
+
+ 
+
+
